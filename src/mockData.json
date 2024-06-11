@@ -1,0 +1,12 @@
+{
+    "users" : [
+        {"id": "1", "email": "test123@gmail.com", "password": "testpassword1", "username": "test1", "Department": "ICT", "userType": "user"},
+        {"id": "2", "email": "test1234@gmail.com", "password": "testpassword2", "username": "test2", "Department": "CSS", "userType": "user"},
+        {"id": "3", "email": "kyandro2004@gmail.com", "password": "test123", "username": "test3", "Department": "OPS", "userType": "admin"},
+        {"id": "4", "email": "sales@solease.nl", "password": "sales", "username": "sales", "Department": "Sales", "userType": "user"}
+    ],
+    "workStation": [
+        {"workSpaces": 34}
+    ]
+    
+}

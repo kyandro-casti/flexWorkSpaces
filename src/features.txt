@@ -1,0 +1,29 @@
+login
+aanmelden
+homepage
+werkplek kiezen
+uitloggen
+admin dashboard/account verwijderen
+
+
+
+[x] Mainpage(Mainpage container)(beveiliging. handmatig url)
+[x] login(na inloggen doorzetten naar mainpage container)
+[] aanmelden(nieuwe account aanmaken)
+[] werkplek kiezen(op knop drukken om de gekozen zitplaats op bezet te zetten)
+[x] uitloggen(terug naar login scherm en cookies verwijderen)
+[] admin dashboard(Accounts weg gooien en afdeling veranderen van accounts)
+[] Css
+[] breaktesting
+[] user end testing
+
+css[
+customer service[x]
+sales[x]
+ICT[]
+ops[x]
+marketing[x]
+directie[x]
+HR[x]
+finance[x]
+]
