@@ -34,15 +34,15 @@ function Login() {
       <div className="App" style={{textAlign:"center"}}>
         <div>
           <h1>Voer hier je email in</h1>
-          <input style={{background: "#FFDD00", color: "#538F74"}} placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}></input>
+          <input placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}></input>
           <h1>Voer hier je wachtwoord in</h1>
-          <input style={{background: "#FFDD00", color: "#538F74"}} type="password" placeholder='Wachtwoord' value={password} onChange={(e) => setPassword(e.target.value)}></input>
+          <input type="password" placeholder='Wachtwoord' value={password} onChange={(e) => setPassword(e.target.value)}></input>
         </div>
         <div>
-          <button style={{width:"150px", height:"25px", background: "#185871", color: "#FFDD00"}} onClick={HandleLogin}>Log in</button>
+          <button style={{width:"150px", height:"25px"}} onClick={HandleLogin}>Log in</button>
         </div>
         <div>
-          <button style={{width:"150px", height:"25px", background: "#185871", color: "#FFDD00"}} onClick={handleAanmaak}>account aanmaken</button>
+          <button style={{width:"150px", height:"25px"}} onClick={handleAanmaak}>account aanmaken</button>
         </div>
       </div>
     );
