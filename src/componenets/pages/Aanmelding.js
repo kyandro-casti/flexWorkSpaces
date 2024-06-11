@@ -11,12 +11,12 @@ function Aanmelding() {
     return(
         <div style={{textAlign:"center"}}>
             <div>
-                <p style={{color: "#185871"}}>Nieuwe email</p>
-                <input style={{color: "#FFDD00", background: "#538F74"}} placeholder="email" value={email} onChange={(e) => setEmail(e.target.value)}></input>
-                <p style={{color: "#185871"}}>Nieuwe gebruikersnaam</p>
-                <input style={{color: "#FFDD00", background: "#538F74"}} placeholder="Bijvoorbeeld les, jesse, etc" value={username} onChange={(e) => setUsername(e.target.value)}></input>
-                <p style={{color: "#185871"}}>Wachtwoord</p>
-                <input style={{color: "#FFDD00", background: "#538F74"}} type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)}></input>
+                <p>Nieuwe email</p>
+                <input placeholder="email" value={email} onChange={(e) => setEmail(e.target.value)}></input>
+                <p>Nieuwe gebruikersnaam</p>
+                <input placeholder="Bijvoorbeeld les, jesse, etc" value={username} onChange={(e) => setUsername(e.target.value)}></input>
+                <p>Wachtwoord</p>
+                <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)}></input>
             </div>
             <div><p></p></div>
             <div>
